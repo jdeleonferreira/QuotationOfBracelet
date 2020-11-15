@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuotationOfBracelet</string>
+    <string name="main_title">BRACELET QUOTE</string>
+    <string name="strMaterial">Material</string>
+    <string name="strPendant">Pendant</string>
+    <string name="strMetalType">Material Type</string>
+    <string name="btnCalculate">CALCULATE</string>
+    <string name="strPrice">Price</string>
+    <string name="leather">Leather</string>
+    <string name="rope">Rope</string>
+    <string name="hammer">Hammer</string>
+    <string name="anchor">Anchor</string>
+    <string name="gold">Gold</string>
+    <string name="pink_gold">Pink Gold</string>
+    <string name="silver">Silver</string>
+    <string name="nickel">Nickel</string>
+    <string name="currency">Currency</string>
+</resources>

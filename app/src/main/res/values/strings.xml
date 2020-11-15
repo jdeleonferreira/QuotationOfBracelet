@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">QuotationOfBracelet</string>
+    <string name="main_title">COTIZADOR DE MANILLAS</string>
+    <string name="strMaterial">Material</string>
+    <string name="strPendant">Dije</string>
+    <string name="strMetalType">Tipo de Metal</string>
+    <string name="btnCalculate">CALCULAR</string>
+    <string name="strPrice">Precio</string>
+    <string name="leather">Cuero</string>
+    <string name="rope">Cuerda</string>
+    <string name="hammer">Martillo</string>
+    <string name="anchor">Ancla</string>
+    <string name="gold">Oro</string>
+    <string name="pink_gold">Oro Rosado</string>
+    <string name="silver">Plata</string>
+    <string name="nickel">Niquel</string>
+    <string name="currency">Modena</string>
+
+
+    <string-array name="material_options">
+        <item>@string/leather</item>
+        <item>@string/rope</item>
+    </string-array>
+    <string-array name="pendant_options">
+        <item>@string/hammer</item>
+        <item>@string/anchor</item>
+    </string-array>
+    <string-array name="metal_type_options">
+        <item>@string/gold</item>
+        <item>@string/pink_gold</item>
+        <item>@string/silver</item>
+        <item>@string/nickel</item>
+    </string-array>
+    <string-array name="currency_options">
+        <item>COP</item>
+        <item>USD</item>
+    </string-array>
+
+</resources>
