@@ -88,13 +88,13 @@
             android:text="@string/strPrice"
             android:textAlignment="center"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="invisible" />
 
         <TextView
             android:id="@+id/lblResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="resultado"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold" />

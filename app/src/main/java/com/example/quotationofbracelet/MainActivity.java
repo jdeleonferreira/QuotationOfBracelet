@@ -19,9 +19,10 @@ public class MainActivity extends AppCompatActivity {
     private String[] metalTypeOptions;
     private String[] currencyOptions;
 
-    private Double TRM = 3200.00;
+    private static Double TRM = 3200.00;
 
     private TextView result;
+    private TextView lblPrice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         result = findViewById(R.id.lblResult);
+        lblPrice = findViewById(R.id.lblPrice);
 
         spMaterial = findViewById(R.id.sprMaterial);
         spPendant = findViewById(R.id.sprPendant);
@@ -84,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
         String result = calculatePrice(usdPrice);
         this.result.setText(result);
+        lblPrice.setVisibility(0);
     }
 
     private String calculatePrice(Double value){
